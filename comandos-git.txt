@@ -1,0 +1,43 @@
+    1  cd umafactorial/
+    2  git clone https://github.com/Juanmayea/umafactorial.git
+    3  git config user.name Juanmayea
+    4  git config user.email jmca111197@gmail.com
+    5  git add factorial.java
+    6  git commit -m "refactorizacion"
+    7  git push origin master
+    8  git checkout -b recursivo
+    9  git add factorial.java
+   10  git commit -m "implementacion recursiva"
+   11  git push origin recursivo
+   12  git checkout master
+   13  git add factorial.java
+   14  git commit -m "correccion numeros negativos"
+   15  git checkout recursivo
+   16  git add factorial.java
+   17  git commit -m "optimizacion"
+   18  git checkout master
+   19  git merge recursivo
+   20  vi factorial.java
+   21  git checkout -b refacIO
+   22  git add factorial.java
+   23  git commit -m "refactorizacion de metodo de entrada"
+   24  git stash
+   25  git checkout master
+   26  git add factorial.java
+   27  git commit -m "cambio de long a BitInteger"
+   28  git push origin master
+   29  git checkout refacIO
+   30  git status
+   31  git stash pop
+   32  git status
+   33  git add add factorial.java
+   34  git add factorial.java
+   35  git commit -m "refactorizacion de metodo de salida"
+   36  git checkout master
+   37  git merge refacIO
+   38  git merge refacIO
+   39  git add factorial.java
+   40  git commit -m "mezcla de rama refacIO"
+   41  git push origin master
+   42  touch comandos-git.txt
+   43  history
